@@ -11,4 +11,4 @@ let result = num1++ + --num2; // 30 + 17 = 47 이지만 문자열일 경우엔 "
 console.log(result, num1, num2);
 
 // result 값을 input#result의 value 속성에 대입.
-document.querySelector('#result').value = result; 
+document.querySelector('#result').value = result;
