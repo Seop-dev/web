@@ -37,5 +37,6 @@ switch (result) {
   case 6:
     console.log("D");
     break;
-  default: console.log("F");
+  default:
+    console.log("F");
 }
