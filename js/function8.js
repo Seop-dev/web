@@ -55,6 +55,11 @@ document.querySelector('select#selectGender').addEventListener('change', functio
   document.querySelector('table.table>tbody').innerHTML = list;
 });
 
+// 3. 삭제 동작
+function deleteTr(event) {
+  const row = event.target.closest('tr');
+  if (row) row.remove();
+}
 
 // tr을 생성하는 함수.
 function makeTr(emp = {}) {
