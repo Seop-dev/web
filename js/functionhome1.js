@@ -8,12 +8,12 @@
 // console.log(sumUp(10)); 
 // 출력: 55 (1+2+3+...+10)
 
-// function sumUp(n){
-//   let total = 0;
-//   for ( let i = 1; i <= n; i++){
-//     total += i;
-//   }
-//   return total;
-// }
-// console.log(sumUp(5));
+function sumUp(n){
+  let total = 0;
+  for ( let i = 1; i <= n; i++){
+    total += i;
+  }
+  return total;
+}
+console.log(sumUp(5));
 

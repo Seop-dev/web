@@ -1,0 +1,22 @@
+// jsonData.js
+
+let json = `[{"id":1,"first_name":"Parsifal","last_name":"Gerrens","email":"pgerrens0@nsw.gov.au","gender":"Non-binary","salary":4148},
+{"id":2,"first_name":"Charlene","last_name":"Cossans","email":"ccossans1@tripadvisor.com","gender":"Female","salary":4045},
+{"id":3,"first_name":"Cassey","last_name":"Fenners","email":"cfenners2@sfgate.com","gender":"Female","salary":3382},
+{"id":4,"first_name":"Naoma","last_name":"Matteoli","email":"nmatteoli3@vistaprint.com","gender":"Female","salary":8633},
+{"id":5,"first_name":"Janelle","last_name":"Clifforth","email":"jclifforth4@squidoo.com","gender":"Female","salary":6318},
+{"id":6,"first_name":"Gerty","last_name":"Oylett","email":"goylett5@mashable.com","gender":"Female","salary":8503},
+{"id":7,"first_name":"Orland","last_name":"Davids","email":"odavids6@plala.or.jp","gender":"Male","salary":3550},
+{"id":8,"first_name":"Filippa","last_name":"Esslement","email":"fesslement7@phoca.cz","gender":"Female","salary":4031},
+{"id":9,"first_name":"Demetre","last_name":"Jannasch","email":"djannasch8@4shared.com","gender":"Bigender","salary":4946},
+{"id":10,"first_name":"Ofella","last_name":"Brambley","email":"obrambley9@mtv.com","gender":"Female","salary":6247},
+{"id":11,"first_name":"Vilma","last_name":"Shapcote","email":"vshapcotea@marketwatch.com","gender":"Female","salary":6736},
+{"id":12,"first_name":"Tracy","last_name":"Macknish","email":"tmacknishb@ehow.com","gender":"Female","salary":5942},
+{"id":13,"first_name":"Nance","last_name":"Tythacott","email":"ntythacottc@squarespace.com","gender":"Female","salary":2719},
+{"id":14,"first_name":"Addie","last_name":"Whitelaw","email":"awhitelawd@elegantthemes.com","gender":"Female","salary":2355},
+{"id":15,"first_name":"Rosalia","last_name":"Hinken","email":"rhinkene@archive.org","gender":"Female","salary":3494},
+{"id":16,"first_name":"Oren","last_name":"Haslum","email":"ohaslumf@ow.ly","gender":"Male","salary":3841},
+{"id":17,"first_name":"Jordan","last_name":"Doerr","email":"jdoerrg@adobe.com","gender":"Female","salary":5392},
+{"id":18,"first_name":"Carlee","last_name":"Schwandermann","email":"cschwandermannh@princeton.edu","gender":"Female","salary":5137},
+{"id":19,"first_name":"Pam","last_name":"Moreno","email":"pmorenoi@mail.ru","gender":"Female","salary":4523},
+{"id":20,"first_name":"Tore","last_name":"Bottrill","email":"tbottrillj@umn.edu","gender":"Male","salary":8047}]`;
