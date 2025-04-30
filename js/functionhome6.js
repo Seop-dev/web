@@ -1,4 +1,5 @@
 // functionhome6.js
+// 주어진 friends 배열에서 가장 나이가 많은 사람의 이름을 출력하는 코드를 작성하세요.
 
 let friends = [
   { name: "김지훈", age: 28, phone: "010-1234-0000" },

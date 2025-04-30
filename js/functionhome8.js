@@ -1,4 +1,5 @@
 // functionhome8.js
+// 친구 중에서 나이가 25살 이상인 친구들만 출력하기
 
 let friends = [
   { name: "김지훈", age: 28, phone: "010-1234-0000" },

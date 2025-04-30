@@ -1,4 +1,5 @@
 // functionhome7.js
+// friends 배열에서 "이름이 최진미 사람" 을 모두 찾아서 콘솔에 출력해보세요.
 
 let friends = [
   { name: "김지훈", age: 28, phone: "010-1234-0000" },

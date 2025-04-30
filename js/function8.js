@@ -11,6 +11,7 @@ console.clear(); // 로그 지우기.
 let btnTemplate = "<button class='btn btn-danger' onclick = 'deleteTr(event)'>삭제</button>";
 
 
+
 // 사원목록(table형식)을 출력.
 let fields = ['id', 'first_name', 'gender', 'salary'];
 let elist = "<table class = 'table'><thead><tr>";
@@ -45,6 +46,7 @@ document.querySelector('button#searchBtn').addEventListener('click', function(){
 // 2. select "change";
 document.querySelector('select#selectGender').addEventListener('change', function(){
   // 입력값
+  console.log(this);
   let searchValue = document.querySelector('#selectGender').value;
   let list = "";
   for (let emp of data){
@@ -54,12 +56,6 @@ document.querySelector('select#selectGender').addEventListener('change', functio
   }
   document.querySelector('table.table>tbody').innerHTML = list;
 });
-
-// 3. 삭제 동작
-function deleteTr(event) {
-  const row = event.target.closest('tr');
-  if (row) row.remove();
-}
 
 // tr을 생성하는 함수.
 function makeTr(emp = {}) {
@@ -75,8 +71,13 @@ function makeTr(emp = {}) {
   return str;
 }
 
-console.log(makeTr({
-  id: 12,
-  first_name: "kildong",
-  email: "kildong@email.com"
-}));
+// 삭제 동작
+function deleteTr(event) {
+  const row = event.target.closest('tr');
+  if (row) row.remove();
+}
+
+// function deleteTr(event){
+//   console.log(event);
+//   e.target.parentElement.parentElement.remove();
+// }
